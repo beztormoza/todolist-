@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.main {
+	/*border: 1px solid red;*/
+	width: 800px;
+	min-height: 100px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.panel {
+	width: 100%;
+	height: 80px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid black;
+}
+
+#txtToPoint {
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+}
+
+.panel-buttons {
+	margin-left: auto;
+}
+
+.panel-buttons button {
+	padding: 5px;
+}
+
+
+
+.main-body {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	/*border: 1px solid yellow;*/
+}
+
+.panel-side {
+	width: 200px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	/*border: 1px solid orange;*/
+}
+
+.panel-side-body {
+	width: 100%	;
+	height: 550px;
+	border: 1px solid black;
+	margin: -1px 0 0 0;
+}
+
+.list {
+	width: 100%;
+	height: 50px;
+	padding: 5px;
+	margin-top: -1px;
+	border: 1px solid gray;
+	display: flex;
+	justify-content: row;
+	align-items: center;
+}
+/*._list-not-selected {
+	background-color: lightgray;
+}
+._list-selected {
+	background-color: lightblue;
+}*/
+
+.panel-side-control {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
+	border: 1px solid black;
+	margin: -1px -1px 0 0;
+}
+.panel-side-input input {
+	width: 100%;
+	padding: 5px;
+	height: 30px;
+}
+
+.panel-side-buttons {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	/*border: 1px solid gray;*/
+}
+
+.panel-side-buttons button {
+	height: 30px;
+	padding: 5px;
+}
+
+.to-do-list {
+	width: 600px;
+	height: 100%;
+	border: 1px solid black;
+	margin: -1px 0 0 -1px;
+}
+
+.point {
+	margin-top: -1px;
+	width: 100%;
+	min-height: 50px;
+	padding: 0px 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid black;
+}
+
+.point label {
+	margin: 0 20px;
+	width: 500px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+}
+
+._point-checked {
+	background-color: #E7474B;
+	text-decoration: line-through;
+	color: #868083;
+}
+
+
+.point-panel {
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	/*border: 1px solid red;*/
+}
+
+.point-panel button {
+	padding: 5px 10px;
+}

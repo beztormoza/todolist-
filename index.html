@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>To do list</h1>
+	<div class="main">
+		<div class="panel">
+			<div>
+				<input type="text" name="" id="txtToPoint" disabled>
+			</div>	
+			<div class="panel-buttons">
+				<button id="add" onclick="createNewpoint()">Create point</button>
+				<button id="cancel" onclick="cancelAdding()">Cancel</button>
+			</div>
+		</div>
+		<div class="main-body">
+			<div class="panel-side">
+				<div class="panel-side-body"></div>
+				<div class="panel-side-control">
+					<div class="panel-side-input">
+						<input type="text" id="nameOfTheList">
+					</div>
+					<div class="panel-side-buttons">
+						<button id="addNewList" onclick="createNewList()">add new list</button>
+						<button id="clearLists" onclick="clearAllLists()">clear all lists</button>
+					</div>
+				</div>
+			</div>
+			<div class="to-do-list"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- 					<div class="list">
+						<input type="radio" id="contactChoice1"
+						name="lists" onclick="checkListState(this)">
+						<label for="contactChoice1">List</label>
+					</div>
+					<div class="list">
+						<input type="radio" id="contactChoice2"
+						name="lists" onclick="checkListState(this)">
+						<label for="contactChoice2">List</label>
+					</div>
+					<div class="list">
+						<input type="radio" id="contactChoice3"
+						name="lists" onclick="checkListState(this)">
+						<label for="contactChoice3">List</label>
+					</div> -->
+
+
+
+					<!-- 				<div class="point">
+					<label>
+						<input type="checkbox" onclick="checkState(this)">
+						<span>Target 1</span>
+					</label>
+					<div class="point-panel">
+						<button id="editPoint" onclick="editPoint(this)">Edit</button>
+						<button id="deletePoint" onclick="deletePoint(this)">Delete</button>
+					</div>
+				</div>
+				<div class="point">
+					<label>
+						<input type="checkbox" onclick="checkState(this)">
+						<span>Target 2</span>
+					</label>
+					<div class="point-panel">
+						<button id="editPoint" onclick="editPoint(this)">Edit</button>
+						<button id="deletePoint" onclick="deletePoint(this)">Delete</button>
+					</div>
+				</div>
+				<div class="point">
+					<label>
+						<input type="checkbox" onclick="checkState(this)">
+						<span>Target 3</span>
+					</label>
+					<div class="point-panel">
+						<button id="editPoint" onclick="editPoint(this)">Edit</button>
+						<button id="deletePoint" onclick="deletePoint(this)">Delete</button>
+					</div>
+				</div> -->
